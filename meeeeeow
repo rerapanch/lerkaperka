@@ -39,7 +39,7 @@ public:
   }
 };
 
-class Mouse
+class Mouse : public Animal
 {
   Animal animal;
 public:
@@ -128,9 +128,10 @@ public:
   }
 };
 
-class Banana
-{
-  Frute frute;
+class Banana : public Fruit {
+
+ Frute frute;
+ 
 public:
  Banana()
   {
@@ -207,7 +208,7 @@ public:
   }
 };
 
-class Phone
+class Phone : public Technique
 {
   Technique technique ;
 public:
